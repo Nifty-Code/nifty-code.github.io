@@ -1,0 +1,54 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+    background-color: #09006B;
+    color: white;
+}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    /* background-color: red; */
+    background-color: #040035;
+}
+
+.section {
+    margin: 20px;
+}
+
+#logo {
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+#menu {
+    display:inline;
+}
+
+.thumbnail {
+    /* color: #FF005C; */
+    /* font-weight: bold; */
+    font-size: 20px;
+    margin: 20px;
+}
+
+.thumbnail-selected {
+    color: #FF005C;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.project {
+    /* display: inline;
+    width: 300px; */
+}
+
+#home {
+    font-size: 30px;
+}
+
+

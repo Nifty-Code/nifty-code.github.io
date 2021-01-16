@@ -9,12 +9,13 @@ div.sticky {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
-    /* background-color: red; */
     background-color: #040035;
+    box-shadow:0px 10px 20px black;  
 }
 
 .section {
     margin: 20px;
+    height: 800px;
 }
 
 #logo {
@@ -29,8 +30,6 @@ div.sticky {
 }
 
 .thumbnail {
-    /* color: #FF005C; */
-    /* font-weight: bold; */
     font-size: 20px;
     margin: 20px;
 }
@@ -43,12 +42,36 @@ div.sticky {
 }
 
 .project {
-    /* display: inline;
-    width: 300px; */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    background-color: #040035;
+    box-shadow:10px 10px 20px black;  
 }
 
 #home {
     font-size: 30px;
 }
 
+#clients-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
 
+.app-icon {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    #clients-container {
+      flex-direction: column;
+    }
+  }

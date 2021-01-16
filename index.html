@@ -1,1 +1,58 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Nifty Code</title>
+</head>
+<body>
+    <div class="sticky">
+        <img id="logo" src="logo.svg" alt="Nifty Code logo">
+        <div id="menu">
+            <span id="home-control" class="thumbnail-selected" onclick="change(this)">Accueil</span>
+            <span id="projects-control" class="thumbnail" onclick="change(this)">Projets</span>
+            <span id="about-control" class="thumbnail" onclick="change(this)">&Agrave; propos</span>
+        </div>
+    </div>
+    <div id="home" class="section">
+        <p>Agence sp&eacute;cialis&eacute;e dans le d&eacute;veloppement d&apos;applications iOS, iPadOS, watchOS, tvOS et macOS en langages Swift et Objective-C.</p>
+    </div>
+    <div id="clients" class="section">
+        <h1>Projets</h1>
+        <div id="clients-container">
+            <div class="project">
+                <img class="app-icon" src="qubmusique.png" alt="Qub Musique App Icon">
+                <h2>Qub Musique</h2>
+                <p>D&eacute;veloppement de l&apos;application de streaming QUB Musique. Application mettant en avant les artistes qu&eacute;b&eacute;cois et francophones.</p>
+                <p style="font-style: italic;">Client: Num&eacute;riQ (Qu&eacute;becor M&eacute;dia Inc.)</p>
+            </div>
+            <div class="project">
+                <img class="app-icon" src="tva.png" alt="Qub Musique App Icon">
+                <h2>TVA+</h2>
+                <p>D&eacute;veloppement de l&apos;application de la chaine de t&eacute;l&eacute; TVA+. Application permettant de regarder les &eacute;missions en direct ou en rattrapage.</p>
+                <p style="font-style: italic;">Client: Num&eacute;riQ (Qu&eacute;becor M&eacute;dia Inc.)</p>
+            </div>    
+        </div>
+    </div>
+    <div id="about" class="section">
+        <h1>&Agrave; propos</h1>
+        <h2>Silbino Gon&ccedil;alves Matado<br/>D&eacute;veloppeur iOS - Consultant</h2>
+        <a href="mailto:sgmatado@niftycode.com" style="color:yellow">Contact</a>
+        <p>D&eacute;veloppeur iOS depuis 2013, j&apos;ai eu la chance de participer au d&eacute;veloppement d&apos;applications &agrave; forte audience comme QUB Musique, Services Mobiles Desjardins, SAQ et Centris.
+            Ma passion et ma curiosit&eacute; me poussent &agrave; chercher les meilleures pratiques en d&eacute;veloppement de logiciel.
+            Je privil&eacute;gie les projets innovants et les environnements o&ugrave; l&apos;&eacute;quipe peut s&apos;impliquer autant sur la conception du produit que sur les orientations technologiques.
+        </p>
+        <h2>Comp&eacute;tences</h2>
+        <table>
+            <tr>
+                <td>Langages</td>
+                <td>Swift et Objective-C</td>
+              </tr>
+              <tr>
+                <td>Frameworks</td>
+                <td>UIKit, RxSwift, SwiftUI, Combine</td>
+              </tr>
+        </table>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
